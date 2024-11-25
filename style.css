@@ -1,0 +1,68 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #0078D7;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+nav .filter {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: white;
+    color: #0078D7;
+    border: 1px solid #0078D7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav .filter:hover {
+    background: #005BB5;
+    color: white;
+}
+
+main {
+    padding: 2rem;
+}
+
+#truck-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.truck-card {
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.truck-card h3 {
+    margin-top: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #0078D7;
+    color: white;
+}
